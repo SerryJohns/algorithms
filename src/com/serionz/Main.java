@@ -47,7 +47,7 @@ public class Main {
         endTime = System.nanoTime();
 
         System.out.println("================================================================");
-        System.out.println("Sorting List: {1, 8, 2, 5, 3, 9, 7, 4}");
+        System.out.println("Quick Sorting List: {1, 8, 2, 5, 3, 9, 7, 4}");
         System.out.println(Arrays.toString(list2));
         printExecutionTime(startTime, endTime);
 
