@@ -2,10 +2,6 @@ package com.serionz.searching;
 
 public class BinarySearch {
     public static boolean search(int[] list, int searchTerm) {
-        /*
-        * the method takes an integer array and returns true if and item has been found or false otherwise
-        * */
-
         if (list.length == 0) {
             return false;
         }
